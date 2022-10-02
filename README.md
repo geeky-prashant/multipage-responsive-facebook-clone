@@ -7,9 +7,9 @@
  
   <br />
 
-  <h2 align="center">Multipage Responsive Facebook Clone</h2>
+  <h2 align="center">Multi-page Responsive Facebook Clone</h2>
 
-  In this project, I have created a Multipage Responsive Facebook Clone, The project is built using HTML5, CSS3 & JavaScript.
+  In this project, I have created a Multi-page Responsive Facebook Clone, The project is built using HTML5, CSS3 & JavaScript.
 
   <a href="https://geeky-prashant.github.io/multipage-responsive-facebook-clone/"><strong>➥ Live Demo</strong></a>
 
