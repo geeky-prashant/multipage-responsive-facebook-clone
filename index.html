@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multi-page Responsive Facebook Clone</title>
+
+    <!-- Facebook Favicon -->
+    <link rel="icon" href="/images/favicon.png" />
+
+    <!-- Fontawesome Icons  -->
+    <script
+      src="https://kit.fontawesome.com/7433d3320f.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- CSS File  -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navigation Section  -->
+    <nav>
+      <!-- Left Section  -->
+      <div class="nav-left">
+        <a href="index.html"><img src="images/logo.png" class="logo" /></a>
+        <ul>
+          <li><img src="images/notification.png" /></li>
+          <li><img src="images/inbox.png" /></li>
+          <li><img src="images/video.png" /></li>
+        </ul>
+      </div>
+      <!-- Right Section  -->
+      <div class="nav-right">
+        <!-- Searchbox  -->
+        <div class="search-box">
+          <img src="images/search.png" />
+          <input type="text" placeholder="Search" />
+        </div>
+        <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+          <img src="images/profile-pic.jpg" />
+        </div>
+      </div>
+
+      <!-- Settings Menu Section  -->
+      <div class="settings-menu">
+        <!-- Dark Button Toggle  -->
+        <div id="dark-btn">
+          <span></span>
+        </div>
+        <div class="settings-menu-inner">
+          <div class="user-profile">
+            <img src="images/profile-pic.jpg" />
+            <div>
+              <p>Prashant Bhardwaj</p>
+              <a href="profile.html">See your profile</a>
+            </div>
+          </div>
+          <hr />
+          <div class="user-profile">
+            <img src="images/feedback.png" />
+            <div>
+              <p>Give Feedback</p>
+              <a href="#">Help us to improve!</a>
+            </div>
+          </div>
+          <hr />
+
+          <div class="settings-links">
+            <img src="images/setting.png" class="settings-icon" />
+            <a href="#"
+              >Settings & Privacy <img src="images/arrow.png" width="10px"
+            /></a>
+          </div>
+          <div class="settings-links">
+            <img src="images/help.png" class="settings-icon" />
+            <a href="#"
+              >Help & Support <img src="images/arrow.png" width="10px"
+            /></a>
+          </div>
+          <div class="settings-links">
+            <img src="images/display.png" class="settings-icon" />
+            <a href="#"
+              >Display & Accessibility <img src="images/arrow.png" width="10px"
+            /></a>
+          </div>
+          <div class="settings-links">
+            <img src="images/logout.png" class="settings-icon" />
+            <a href="#">Logout <img src="images/arrow.png" width="10px" /></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main Content Section  -->
+    <div class="container">
+      <!-- Left Sidebar  -->
+      <div class="left-sidebar">
+        <div class="imp-links">
+          <a href="#"><img src="images/news.png" />Latest News</a>
+          <a href="#"><img src="images/friends.png" />Friends</a>
+          <a href="#"><img src="images/group.png" />Group</a>
+          <a href="#"><img src="images/marketplace.png" />Marketplace</a>
+          <a href="#"><img src="images/watch.png" />Watch</a>
+          <a href="#">See More</a>
+        </div>
+        <div class="shortcut-links">
+          <p>Your Shortcuts</p>
+          <a href="#"><img src="images/shortcut-1.png" />Frontend Developers</a>
+          <a href="#"><img src="images/shortcut-2.png" />Backend Developers</a>
+          <a href="#"
+            ><img src="images/shortcut-3.png" />MERN Stack Developers</a
+          >
+          <a href="#"
+            ><img src="images/shortcut-4.png" />React Native Developers</a
+          >
+        </div>
+      </div>
+      <!-- Middle Content  -->
+      <!-- Story Section  -->
+      <div class="main-content">
+        <div class="story-gallery">
+          <div class="story story1">
+            <img src="images/upload.webp" />
+            <p>Post Story</p>
+          </div>
+          <div class="story story2">
+            <img
+              src="images/member-1.jpg
+            "
+            />
+            <p>Bill Gates</p>
+          </div>
+          <div class="story story3">
+            <img src="images/member-2.jpg" />
+            <p>Jeff Bezos</p>
+          </div>
+          <div class="story story4">
+            <img src="images/member-3.jpg" />
+            <p>Zuckerberg</p>
+          </div>
+          <div class="story story5">
+            <img src="images/member-4.jpg" />
+            <p>Ratan Tata</p>
+          </div>
+        </div>
+
+        <!-- Post Section  -->
+        <div class="write-post-container">
+          <div class="user-profile">
+            <img src="images/profile-pic.jpg" />
+            <div>
+              <p>Prashant Bhardwaj</p>
+              <small>Public <i class="fa-solid fa-caret-down"></i></small>
+            </div>
+          </div>
+
+          <div class="post-input-container">
+            <textarea
+              rows="3"
+              placeholder="What's on your mind, Prashant?"
+            ></textarea>
+            <div class="add-post-links">
+              <a href="#"><img src="images/live-video.png" /> Live Video</a>
+              <a href="#"><img src="images/photo.png" /> Photo/Video</a>
+              <a href="#"><img src="images/feeling.png" /> Feeling/Activity</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Uploaded Posts Section  -->
+        <!-- Post 1  -->
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="images/profile-pic.jpg" />
+              <div>
+                <p>Prashant Bhardwaj</p>
+                <span>September 25 2022, 14:55 pm</span>
+              </div>
+            </div>
+            <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+          </div>
+          <p class="post-text">
+            <span>Big Billion Days</span> Sale 2022 offers you huge discounts on
+            top brands. It is high time to purchase all your favourite products
+            that are there in your wishlist. <a href="#">#Flipkart</a>
+            <a href="#">#Sale2022</a> <a href="#">#BigBillionDays</a>
+            <a href="#">#Offers</a>
+          </p>
+          <img src="images/feed-image-1.jpg" class="post-img" />
+
+          <div class="post-row">
+            <div class="activity-icons">
+              <div><img src="images/like-blue.png" /> 75k+</div>
+              <div><img src="images/comments.png" /> 5k+</div>
+              <div><img src="images/share.png" /> 950</div>
+            </div>
+            <div class="post-profile-icon">
+              <img src="images/profile-pic.jpg" />
+              <i class="fa-solid fa-caret-down"></i>
+            </div>
+          </div>
+        </div>
+
+        <!-- Post 2  -->
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="images/profile-pic.jpg" />
+              <div>
+                <p>Prashant Bhardwaj</p>
+                <span>September 25 2022, 14:55 pm</span>
+              </div>
+            </div>
+            <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+          </div>
+          <p class="post-text">
+            <span>Amazon Great Indian</span> Sale 2022 offers you huge discounts
+            on top brands. This sale will not only give discounts on gadgets,
+            but you can also avail offers on products like clothing, footwear,
+            furniture, beauty, toys, and various others.
+            <a href="#">#Amazon</a> <a href="#">#Sale2022</a>
+            <a href="#">#GreatIndianSale</a>
+            <a href="#">#Offers</a>
+          </p>
+          <img src="images/feed-image-2.jpg" class="post-img" />
+
+          <div class="post-row">
+            <div class="activity-icons">
+              <div><img src="images/like.png" /> 50k+</div>
+              <div><img src="images/comments.png" /> 3.5k+</div>
+              <div><img src="images/share.png" /> 450</div>
+            </div>
+            <div class="post-profile-icon">
+              <img src="images/profile-pic.jpg" />
+              <i class="fa-solid fa-caret-down"></i>
+            </div>
+          </div>
+        </div>
+
+        <!-- Post 3  -->
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="images/profile-pic.jpg" />
+              <div>
+                <p>Prashant Bhardwaj</p>
+                <span>September 25 2022, 14:55 pm</span>
+              </div>
+            </div>
+            <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+          </div>
+          <p class="post-text">
+            <span>Meesho Mega Blockbuster</span> Sale 2022 offers you huge
+            discounts on top brands. Utilise the Mega Blockbuster Sale offers
+            and get a cashback offer and extra discounts on every purchase.
+            <a href="#">#Meesho</a> <a href="#">#Sale2022</a>
+            <a href="#">#MegaBlockbusterSale</a>
+          </p>
+          <img src="images/feed-image-3.jpg" class="post-img" />
+
+          <div class="post-row">
+            <div class="activity-icons">
+              <div><img src="images/like.png" /> 12k+</div>
+              <div><img src="images/comments.png" /> 1k+</div>
+              <div><img src="images/share.png" /> 350</div>
+            </div>
+            <div class="post-profile-icon">
+              <img src="images/profile-pic.jpg" />
+              <i class="fa-solid fa-caret-down"></i>
+            </div>
+          </div>
+        </div>
+
+        <!-- Load More  -->
+        <button type="button" class="load-more-button">Load More</button>
+      </div>
+
+      <!-- Right Sidebar  -->
+      <div class="right-sidebar">
+        <div class="sidebar-title">
+          <h4>Events</h4>
+          <a href="#">See All</a>
+        </div>
+
+        <div class="event">
+          <div class="left-event">
+            <h3>1</h3>
+            <span>October</span>
+          </div>
+          <div class="right-event">
+            <h4>Social Media</h4>
+            <p>
+              <i class="fa-solid fa-location-dot"></i>Ambience Mall, Gurgaon
+            </p>
+            <a href="#">More Info</a>
+          </div>
+        </div>
+        <div class="event">
+          <div class="left-event">
+            <h3>5</h3>
+            <span>November</span>
+          </div>
+          <div class="right-event">
+            <h4>E-commerce</h4>
+            <p><i class="fa-solid fa-location-dot"></i>Cyber Hub, Gurgaon</p>
+            <a href="#">More Info</a>
+          </div>
+        </div>
+
+        <div class="sidebar-title">
+          <h4>Avertisement</h4>
+          <a href="#">Close</a>
+        </div>
+        <img src="images/advertisement.png" class="sidebar-ads" />
+
+        <div class="sidebar-title">
+          <h4>Conversation</h4>
+          <a href="#">Hide Chat</a>
+        </div>
+
+        <div class="online-list">
+          <div class="online">
+            <img src="images/member-1.jpg" />
+          </div>
+          <p>Bill Gates</p>
+        </div>
+        <div class="online-list">
+          <div class="online">
+            <img src="images/member-2.jpg" />
+          </div>
+          <p>Jeff Bezos</p>
+        </div>
+        <div class="online-list">
+          <div class="online">
+            <img src="images/member-3.jpg" />
+          </div>
+          <p>Mark Zuckerberg</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Section  -->
+    <div class="footer">
+      <p>
+        © 2022 Prashant Bhardwaj -
+        <a href="https://geekyprashant.com">GeekyPrashant.com</a>
+      </p>
+    </div>
+
+    <!-- JavaScript File  -->
+    <script src="script.js"></script>
+  </body>
+</html>
