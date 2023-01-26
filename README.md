@@ -3,7 +3,6 @@
   ![GitHub repo size](https://img.shields.io/github/repo-size/geeky-prashant/multipage-responsive-facebook-clone)
   ![GitHub stars](https://img.shields.io/github/stars/geeky-prashant/multipage-responsive-facebook-clone)
   ![GitHub forks](https://img.shields.io/github/forks/geeky-prashant/multipage-responsive-facebook-clone?style=social)
-  [![Twitter Follow](https://img.shields.io/twitter/follow/geekyprashant?style=social)](https://twitter.com/intent/follow?screen_name=geekyprashant)
  
   <br />
 
